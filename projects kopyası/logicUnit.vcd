@@ -1,0 +1,161 @@
+$date
+	Sun Jan 19 22:51:36 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module logicUnitTB $end
+$var wire 4 ! resultX [3:0] $end
+$var wire 4 " resultO [3:0] $end
+$var wire 4 # resultA [3:0] $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$var reg 3 & opCode [2:0] $end
+$scope module uut $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var wire 3 ) opCode [2:0] $end
+$var wire 4 * xor1 [3:0] $end
+$var wire 4 + resultX [3:0] $end
+$var wire 4 , resultO [3:0] $end
+$var wire 4 - resultA [3:0] $end
+$var wire 4 . or1 [3:0] $end
+$var wire 4 / and1 [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 /
+b1 .
+b1 -
+b0 ,
+b0 +
+b0 *
+b1 )
+b1 (
+b1 '
+b1 &
+b1 %
+b1 $
+b1 #
+b0 "
+b0 !
+$end
+#2
+b11 .
+b10 *
+b11 $
+b11 '
+#4
+b1001 #
+b1001 -
+b1001 /
+b1001 .
+b0 *
+b1001 %
+b1001 (
+b1001 $
+b1001 '
+#6
+b1111 #
+b1111 -
+b1111 /
+b1111 .
+b1111 %
+b1111 (
+b1111 $
+b1111 '
+#8
+b0 #
+b0 -
+b0 /
+b0 .
+b0 %
+b0 (
+b0 $
+b0 '
+#10
+b101 "
+b101 ,
+b100 *
+b1 /
+b101 .
+b101 %
+b101 (
+b1 $
+b1 '
+b10 &
+b10 )
+#12
+b1101 "
+b1101 ,
+b1101 .
+b1100 *
+b1001 $
+b1001 '
+#14
+b1111 "
+b1111 ,
+b1111 .
+b1110 *
+b1111 %
+b1111 (
+b1 $
+b1 '
+#16
+b101 "
+b101 ,
+b101 .
+b0 /
+b101 *
+b101 %
+b101 (
+b0 $
+b0 '
+#18
+b1011 .
+b1011 *
+b0 "
+b0 ,
+b1011 !
+b1011 +
+b10 %
+b10 (
+b1001 $
+b1001 '
+b100 &
+b100 )
+#20
+b0 !
+b0 +
+b0 .
+b0 *
+b0 %
+b0 (
+b0 $
+b0 '
+#22
+b101 !
+b101 +
+b101 .
+b101 *
+b101 %
+b101 (
+#24
+b0 !
+b0 +
+b1111 /
+b1111 .
+b0 *
+b1111 %
+b1111 (
+b1111 $
+b1111 '
+#26

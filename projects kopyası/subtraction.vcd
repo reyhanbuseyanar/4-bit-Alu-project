@@ -1,0 +1,308 @@
+$date
+	Sun Jan 19 22:09:50 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module subtractionTB $end
+$var wire 4 ! Y [3:0] $end
+$var wire 1 " BorrowOUT $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % BorrowIN $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 % BorrowIN $end
+$var wire 4 ( tempB [3:0] $end
+$var wire 4 ) Y [3:0] $end
+$var wire 1 " BorrowOUT $end
+$scope module f0 $end
+$var wire 1 * A $end
+$var wire 1 + B $end
+$var wire 1 % BorrowIN $end
+$var wire 1 , BorrowOut $end
+$var wire 1 - tempD $end
+$var wire 1 . tempB2 $end
+$var wire 1 / tempB1 $end
+$var wire 1 0 Difference $end
+$scope module hf1 $end
+$var wire 1 * A $end
+$var wire 1 + B $end
+$var wire 1 / Borrow $end
+$var wire 1 - Difference $end
+$var wire 1 1 notA $end
+$upscope $end
+$scope module hf2 $end
+$var wire 1 - A $end
+$var wire 1 % B $end
+$var wire 1 . Borrow $end
+$var wire 1 0 Difference $end
+$var wire 1 2 notA $end
+$upscope $end
+$upscope $end
+$scope module f1 $end
+$var wire 1 3 A $end
+$var wire 1 4 B $end
+$var wire 1 5 BorrowIN $end
+$var wire 1 6 BorrowOut $end
+$var wire 1 7 tempD $end
+$var wire 1 8 tempB2 $end
+$var wire 1 9 tempB1 $end
+$var wire 1 : Difference $end
+$scope module hf1 $end
+$var wire 1 3 A $end
+$var wire 1 4 B $end
+$var wire 1 9 Borrow $end
+$var wire 1 7 Difference $end
+$var wire 1 ; notA $end
+$upscope $end
+$scope module hf2 $end
+$var wire 1 7 A $end
+$var wire 1 5 B $end
+$var wire 1 8 Borrow $end
+$var wire 1 : Difference $end
+$var wire 1 < notA $end
+$upscope $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 = A $end
+$var wire 1 > B $end
+$var wire 1 ? BorrowIN $end
+$var wire 1 @ BorrowOut $end
+$var wire 1 A tempD $end
+$var wire 1 B tempB2 $end
+$var wire 1 C tempB1 $end
+$var wire 1 D Difference $end
+$scope module hf1 $end
+$var wire 1 = A $end
+$var wire 1 > B $end
+$var wire 1 C Borrow $end
+$var wire 1 A Difference $end
+$var wire 1 E notA $end
+$upscope $end
+$scope module hf2 $end
+$var wire 1 A A $end
+$var wire 1 ? B $end
+$var wire 1 B Borrow $end
+$var wire 1 D Difference $end
+$var wire 1 F notA $end
+$upscope $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 G A $end
+$var wire 1 H B $end
+$var wire 1 I BorrowIN $end
+$var wire 1 " BorrowOut $end
+$var wire 1 J tempD $end
+$var wire 1 K tempB2 $end
+$var wire 1 L tempB1 $end
+$var wire 1 M Difference $end
+$scope module hf1 $end
+$var wire 1 G A $end
+$var wire 1 H B $end
+$var wire 1 L Borrow $end
+$var wire 1 J Difference $end
+$var wire 1 N notA $end
+$upscope $end
+$scope module hf2 $end
+$var wire 1 J A $end
+$var wire 1 I B $end
+$var wire 1 K Borrow $end
+$var wire 1 M Difference $end
+$var wire 1 O notA $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1O
+1N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+1F
+1E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+1<
+1;
+0:
+09
+08
+07
+06
+05
+04
+03
+12
+11
+00
+0/
+0.
+0-
+0,
+0+
+0*
+b0 )
+bz000 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10
+1I
+1@
+1D
+1B
+1?
+15
+0:
+0<
+16
+0M
+0O
+bz111 (
+1,
+17
+19
+1J
+0N
+b101 !
+b101 )
+10
+1.
+14
+1G
+1%
+b10 $
+b10 '
+b1000 #
+b1000 &
+#20
+0?
+1"
+0B
+06
+1K
+05
+1D
+0F
+0:
+1<
+09
+1M
+1O
+bz100 (
+0,
+1A
+1C
+07
+0;
+0J
+1N
+b1100 !
+b1100 )
+00
+0.
+1>
+13
+0G
+0%
+b110 $
+b110 '
+b10 #
+b10 &
+#30
+0I
+0"
+bz000 (
+0@
+0K
+0D
+1F
+0C
+b1000 !
+b1000 )
+1M
+0O
+1;
+0A
+0E
+1J
+0N
+04
+03
+1=
+1G
+b100 $
+b100 '
+b1100 #
+b1100 &
+#40
+b0 !
+b0 )
+0M
+1O
+0J
+1E
+0>
+1H
+0=
+b1000 $
+b1000 '
+b1000 #
+b1000 &
+#50
+15
+1M
+0O
+0:
+0<
+1D
+0F
+bz001 (
+1,
+1J
+01
+17
+0;
+1A
+0E
+b1101 !
+b1101 )
+10
+1.
+1+
+0H
+1*
+13
+1=
+1%
+b1 $
+b1 '
+b1111 #
+b1111 &
+#60
